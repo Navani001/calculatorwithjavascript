@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hole">
+    <input type="text" class="out" id="out2" value="" name="o">
+    <table>
+    <tr>
+        <th><button type="button" onclick="append('+')">+</button></th>
+        <th><button type="button" onclick="append('-')">-</button></th>
+        <th><button type="button" onclick="append('*')">*</button></th>
+        <th><button type="button" onclick="append('/')">/</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="append('9')">9</button></th>
+        <th><button type="button" onclick="append('8')">8</button></th>
+        <th><button type="button" onclick="append('7')">7</button></th>
+        <th><button type="button"   onclick="CE()">CE</button></th>
+    </tr>
+    <tr>
+        <th><button type="button"  onclick="append('4')">4</button></th>
+        <th><button type="button"  onclick="append('5')">5</button></th>
+        <th><button type="button"  onclick="append('6')">6</button></th>
+        <th><button type="button"  onclick="ac()">AC</button></th>
+    </tr>
+    <tr>
+        <th><button type="button"  onclick="append('1')">1</button></th>
+        <th><button type="button"  onclick="append('2')">2</button></th>
+        <th><button type="button"  onclick="append('3')">3</button></th>
+        <th rowspan="2"><button type="button"  onclick="e()">=</button></th>
+    </tr>
+    <tr>
+        <th><button type="button" onclick="append('.')">.</button></th>
+        <th><button type="button" onclick="append('0')">0</button></th>
+        <th><button type="button" onclick="append('00')">00</button></th>
+        
+    </tr>
+</table>
+</div>
+<script src="funct.js">
+
+</script>
+</body>
+</html>
